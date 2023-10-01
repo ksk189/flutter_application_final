@@ -30,11 +30,11 @@ class FirstScreen extends StatelessWidget {
     return Scaffold(
       body: Container(
         decoration: const BoxDecoration(
-          // color: Color.fromARGB(255, 4, 4, 4), // Set the alpha value to 255 for full opacity
-          //image: DecorationImage(
-            //image: AssetImage(),
-           // fit: BoxFit.fill,
-         // )
+          color: Color.fromARGB(255, 4, 4, 4), // Set the alpha value to 255 for full opacity
+          image: DecorationImage(
+            image: AssetImage("assets/m2.jpg"),
+           fit: BoxFit.fill,
+         )
         ),
       ),
     );
