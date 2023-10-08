@@ -66,6 +66,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '667647688535',
     projectId: 'my-finalabc-proj',
     storageBucket: 'my-finalabc-proj.appspot.com',
+    iosClientId: '667647688535-pu1elth1oqofqor15suppq6ssb6rnbov.apps.googleusercontent.com',
     iosBundleId: 'com.example.flutterApplicationFinal',
   );
 
@@ -75,6 +76,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '667647688535',
     projectId: 'my-finalabc-proj',
     storageBucket: 'my-finalabc-proj.appspot.com',
+    iosClientId: '667647688535-18rmh2l2hcecjm0mgek3cevttufahhjt.apps.googleusercontent.com',
     iosBundleId: 'com.example.flutterApplicationFinal.RunnerTests',
   );
 }
