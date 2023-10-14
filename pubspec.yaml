@@ -48,6 +48,8 @@ dependencies:
   url_launcher: ^6.1.14
   tflite_flutter: ^0.10.2
   image: ^4.1.3
+  reels_viewer: ^1.0.0+3
+ 
   
 
  

@@ -8,9 +8,11 @@ import 'package:image/image.dart' as img;
 
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       home: HomePage(),
     );
   }
@@ -61,6 +63,8 @@ class Prediction {
 }
 
 class HomePage extends StatefulWidget {
+  const HomePage({super.key});
+
   @override
   _HomePageState createState() => _HomePageState();
 }
@@ -98,17 +102,17 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Image Classification'),
+        title: const Text('Image Classification'),
       ),
       body: Center(
         child: _image == null
-            ? Text('No image selected')
+            ? const Text('No image selected')
             : Image.file(File(_image!.path)),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: openCamera,
         tooltip: 'Take a Picture',
-        child: Icon(Icons.camera),
+        child: const Icon(Icons.camera),
       ),
     );
   }

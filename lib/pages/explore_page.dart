@@ -88,7 +88,7 @@ class ExplorePage extends StatelessWidget {
                                   context,
                                   MaterialPageRoute(
                                     builder: (context) {
-                                      return   TFLite();
+                                      return   const TFLite();
                                     },
                                   ),
                                 );

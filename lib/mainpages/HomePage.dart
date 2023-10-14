@@ -8,6 +8,7 @@ import 'package:flutter_application_final/pages/explore_page.dart';
 import 'package:flutter_application_final/pages/ml_camerapage.dart';
 import 'package:flutter_application_final/pages/profile_page.dart';
 import 'package:flutter_application_final/pages/service_page.dart';
+import 'package:flutter_application_final/servicescat/vedhika.dart';
 import 'package:iconly/iconly.dart';
 
 class HomePage extends StatefulWidget {
@@ -22,8 +23,8 @@ class _HomePageState extends State<HomePage> {
   final pages = [
     const ExplorePage(),
     const ServicesPage(),
-      TFLite(),
-    const CartPage(),
+      const TFLite(),
+    const VedhikaPage(),
     const ProfilePage()
   ];
 
@@ -220,7 +221,7 @@ class _HomePageState extends State<HomePage> {
             color: Colors.white,
           ),
           Icon(
-            IconlyLight.buy,
+            Icons.play_circle_outline,
             color: Colors.white,
           ),
           Icon(
